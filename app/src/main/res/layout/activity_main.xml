@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="นับถอยหลัง 0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="คะแนน : 0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="เกมสุ่มภาพ"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/format_icon" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="เริ่มเกม"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timeupTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="#F44336"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/resultScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
